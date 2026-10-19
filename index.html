@@ -7,28 +7,70 @@
     <title>Zsófi dokumentuma</title>
 </head>
 <style>
-    .media{   
+    .media {
         max-width: 720px;
         width: 100%;
     }
+
+    body {
+        background-color: blanchedalmond;
+    }
+
+    .middle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .left {
+        display: flex;
+        justify-content: left;
+    }
+
+    .font-helvetica {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #main-title {
+        color: indianred;
+    }
+
+    .font-italic {
+        font-style: italic;
+    }
+    .item{
+margin-bottom: 50px;
+    }
 </style>
-<script>
-   // alert('Szia András!');
-    prompt('Szia!');
-    confirm('Hello?');
-</script>
+
 <body>
-    <h1>Milyen háziállataim vannak?</h1>
-    <h3>Van 3 háziállatunk, egy kutya akinek az a neve, hogy Mokesz, és 2 cica, Odin és Szaffi</h3>
-    <img class="media" src="img/wolf-couple-wallpaper-preview.jpg" alt="">
-    <img class="media" src="img/KZS_latvanyterv_01.png" alt="">
-    <img class="media" src="img/mucha_job.jpg" alt="">
-    <h2>ez itt egy gomba tehen amit a szerveren talaltunk</h2>
-    <img class="media" src="img/Screenshot 2026-09-18 205414.png" alt="">
-    <h2>nagyon jo lenne minecraftozni</h2>
-    <img class="media" src="img/Screenshot 2026-09-16 232702.png" alt="">
-    <h3>fahaz turntable mark orajarol</h3>
-    <video class="media" controls src="video/fahaz_turntable.mp4"></video>
+    <div class="middle">
+
+        <h1 class="font-helvetica" id="main-title">Kerekes Zsófia Weboldala</h1>
+        <h2 class="font-helvetica">Ez a weboldal a munkáimat mutatja be.</h2>
+        <div class="item">
+            <h2 class="font-helvetica font-italic">Swatch modellezése - Beadandó</h2>
+            <img class="media" controls src="img/Metu_Swatch_KerekesZsofia_1.0001.png" alt="">
+        </div>
+        <div class="item">
+            <h2 class="font-helvetica font-italic">Látványterv - Szekrény modellezés</h2>
+            <img class="media" src="img/KZS_latvanyterv_01.png" alt="">
+        </div>
+        <div class="item">
+            <h2 class="font-helvetica font-italic">Turntable - Faház Feladat</h2>
+            <video class="media" controls src="video/fahaz_turntable.mp4"></video>
+        </div>
+        <div class="item">
+            <h2 class="font-helvetica font-italic">Karaktertervezés - Féléves Feladat</h2>
+            <img class="media" controls src="img/Karakter_T-pose_KerekesZsofia.PNG" alt="">
+        </div>
+        <div class="item">
+            <h2 class="font-helvetica font-italic">Turntable - Diplomamunka modellezés, textúrázás</h2>
+            <video class="media" controls src="video/busz_turnaround_KerekesZsofia.mp4"></video>
+        </div>
+
+    </div>
 </body>
 
 </html>
