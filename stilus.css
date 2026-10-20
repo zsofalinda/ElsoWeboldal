@@ -1,0 +1,35 @@
+ .media {
+        max-width: 720px;
+        width: 100%;
+    }
+
+    body {
+        background-color:rgb(45, 45, 45);
+    }
+
+    .middle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .left {
+        display: flex;
+        justify-content: left;
+    }
+
+    .font-helvetica {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #main-title {
+        color: indianred;
+    }
+
+    .font-italic {
+        font-style: italic;
+    }
+    .item{
+margin-bottom: 50px;
+    }
